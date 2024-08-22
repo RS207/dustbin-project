@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <form action="insert_php" method="post">
+        <div class="bg-image">
+            <div class="nav">
+                <div class="nav-p">
+                    <p ><a href="index.html" class="nav-p-p">Home</a></p>
+                    <p ><a href="about.html" class="nav-p-p">About</a></p>
+                    <p ><a href="pricing.html" class="nav-p-p">Pricing</a></p>
+                    <p ><a href="contact.html" class="nav-p-p">Contact-us</a></p>
+                    <p ><a href="login.html" class="nav-p-p-login">Login</a></p>
+                </div>
+            </div>
+            <div class="mid-box">
+                <div class="mid-innerbox">
+                    <p class="mid-text">REGISTER</p>
+                    <input type="email" class="email buttons" name="email" placeholder="Enter your email" required>
+                    <input type="text" class="name buttons" name="name" placeholder="Enter your company name" required>
+                    <input type="digits" class="number buttons" name="number" placeholder="Enter your contact no" required>
+                    <form>
+                        <div class="waste-types">
+                            <label for="waste">Waste types</label>
+                            <select name="waste">
+                                <option value="organic" name="organic">Organic waste</option>
+                                <option value="non-organic" name="non-organic">Non-organic waste</option>
+                            </select>
+                        </div>
+                    </form>
+                    <input type="submit" class="submit buttons" value="submit">
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
